@@ -1,0 +1,61 @@
+{
+  "name": "proptech-ai-platform",
+  "version": "1.0.0",
+  "description": "AI-powered real estate search and intelligence platform",
+  "main": "src/lambda/handler.ts",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "cdk deploy",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist cdk.out",
+    "dev": "tsc --watch",
+    "cdk": "cdk",
+    "bootstrap": "cdk bootstrap"
+  },
+  "keywords": [
+    "real-estate",
+    "ai",
+    "aws",
+    "lambda",
+    "algolia",
+    "bedrock",
+    "playwright",
+    "property-search"
+  ],
+  "author": "PropTech AI Platform",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.450.0",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "algoliasearch": "^4.25.2",
+    "aws-lambda": "^1.0.7",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.19.9",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "aws-cdk-lib": "^2.207.0",
+    "constructs": "^10.4.2",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "source-map-support": "^0.5.21",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/proptech-ai-platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/proptech-ai-platform/issues"
+  },
+  "homepage": "https://github.com/your-username/proptech-ai-platform#readme"
+}
