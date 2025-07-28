@@ -1,0 +1,12 @@
+{
+  "apiUrl": "https://abcde1234k.execute-api.us-east-1.amazonaws.com/prod",
+  "environment": "production",
+  "features": {
+    "propertyCollection": true,
+    "aiInsights": true,
+    "chatInterface": true,
+    "propertySearch": true
+  },
+  "version": "1.0.0",
+  "lastUpdated": "2025-07-26T05:30:00Z"
+}
